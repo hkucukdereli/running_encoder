@@ -87,7 +87,7 @@ def read_serial_data():
             except KeyboardInterrupt:
                 # Terminate gracefully and let the user know
                 ser.write("E\n".encode())
-                print("Data recording stopped by user.")
+                print(f"Data recording stopped by user. {counter} cycles recorded.")
 
 if __name__ == "__main__":
     read_serial_data()
