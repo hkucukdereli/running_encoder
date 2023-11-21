@@ -1,4 +1,4 @@
-# running_encoder
+# Running encoder scripts
 Script to handle the communication with the encoder board. 
 Steps to follow:
 1. First, upload encoder_sync to the encoder board.
