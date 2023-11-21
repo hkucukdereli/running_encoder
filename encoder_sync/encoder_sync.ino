@@ -1,3 +1,13 @@
+#include <Adafruit_DotStar.h>
+#include <SPI.h>
+
+#define NUMPIXELS 1
+#define DATAPIN 7
+#define CLOCKPIN 8
+
+// Turn off the rgb led
+Adafruit_DotStar strip = Adafruit_DotStar(NUMPIXELS, DATAPIN, CLOCKPIN, DOTSTAR_BGR);
+
 #include <Encoder.h>
 
 #define CAM_PIN 4
